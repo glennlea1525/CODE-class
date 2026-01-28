@@ -4,6 +4,8 @@ description: Page description
 
 # Sample Markdown Page
 
+You can use this markdown example as a starting point for your topics.&#x20;
+
 ```markdown
 An h1 header
 ============
