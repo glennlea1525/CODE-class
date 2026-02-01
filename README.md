@@ -2,28 +2,33 @@
 
 ## Initialize a local directory
 
-1. Make a directory CODE-class and cd into it.
-1. Initialize a local REPO using git init.
+Make a directory CODE-class and cd into it.
+
+Initialize a local REPO
+
+    git init
 
 The local repo is ready now for cloning a remote Repository into it.
 
 ## Add a Markdown file to your local Repo
-1. Make a new branch*: 
+
+Make a new branch*: 
 	
     git checkout -b <my-branch> (make new branch)
 
-2. In the new branch make a new markdown (.md) file: 
+In the new branch make a new markdown (.md) file: 
 
-	<your_name.md>
-3. Add some Markdown content to file. Sample markdown is in the README file. 
+	your_name.md
 
-4. Save the file
+Add some Markdown content to file. Sample markdown is in the README file. 
+
+Save the file
 
 *Note: git branch shows new branch only after first commit.
 
 ## Get a local copy of CODE-Class repository:
 
-git clone https://github.com/glennlea1525/CODE-class.git
+    git clone https://github.com/glennlea1525/CODE-class.git
 
 ## Commit your changes using the following commands
 
