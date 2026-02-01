@@ -1,4 +1,4 @@
-# GitHub Practice Repository for CODE University Technical Writing Course
+# GitHub Practice Repository
 
 ## Initialize a local directory
 
@@ -28,27 +28,34 @@ git clone https://github.com/glennlea1525/CODE-class.git
 ## Commit your changes using the following commands
 
 Shows untracked files (the file you just made)
+
 	git status
 
 Track the file you just made.
+
 	git add .
 
 Ensures the job was done.
+
 	git status
 
 Commit your changes and add a short description of this commit.
+
 	git commit –m “Initial commit”
 
 ## Push your changes to the remote repository
 
 Push changes to a new branch on the remote repository
-	git push origin <my-branch> 
+
+	git push origin my-branch
 
 You should now see your own branch listed after running:
+
 	git branch 
 
-Should be
+Results should be
+
 	main
-	*<my-branch>
+	*my-branch
 
 *Note: Star next to branch is the currently active branch.
