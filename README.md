@@ -47,7 +47,7 @@ Ensures the job was done.
 
 Commit your changes and add a short description of this commit.
 
-	git commit –m “Initial commit”
+	git commit –m “your_name.md”
 
 ## Push your changes to the remote repository
 
