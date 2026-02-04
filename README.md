@@ -40,54 +40,77 @@ Clone the CODE-Class repository into the local REPO directory you just created:
 git clone https://github.com/glennlea1525/CODE-class.git
 ```
 
-## 3. Add a Markdown file to your local Repo
+**4. Make a new branch** 
 
-Make a new branch*: 
-	
-    git checkout -b <my-branch> (make new branch)
+```bash
+git checkout -b <my-branch> (make new branch)
+```
+**3. Add a new markdown (.md) file to your local Repo**
 
-In the new branch make a new markdown (.md) file: 
+Make a new file and name it as follows:
 
-	your_name.md
+```
+<your_name.md>
+```
 
-Add some Markdown content to file. Sample markdown is in the markdown-cheat-sheet.md file. 
+In this file, use Markdown to add your name. You can add anything else you want here, as long as it is in Markdown.
 
+```
+{
+  "firstName": "Glenn",
+  "lastName": "Lea",
+}
+```
 Save the file
 
-*Note: git branch shows the new branch only after first commit.
+*Note: git branch shows the new branch only after first commit.*
 
-## Commit your changes
+**4. Commit your changes**
 
 Shows untracked files (the file you just made)
 
-	git status
-    modified your_name.md
+```bash
+git status
+``
+It should show the new file you just created.
 
 Track the file you just made.
 
-	git add .
+```bash
+git add .
+```
 
 Ensures the job was done.
 
-	git status
+```bash
+git status
+```
 
 Commit your changes and add a short description of this commit.
 
-	git commit –m “your_name.md”
+```bash
+git commit –m “your_name.md”
+```
 
-## Push your changes to the remote repository
+** 5. Push your changes to the remote repository CODE-class**
 
-Push changes to a new branch on the remote repository
+Push changes to a new branch on the remote repository:
 
-	git push origin my-branch
+```bash
+git push origin my-branch
+```
 
 You should now see your own branch listed after running:
 
-	git branch 
+```bash
+git branch
+```
 
-Results should be
+Results should show the following:
 
-	main
-	*my-branch
+```bash
+main
+*my-branch
+```
 
-*Note: Star next to branch is the currently active branch.
+*Note: Star next to branch is the currently active branch.*
