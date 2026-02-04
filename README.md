@@ -67,7 +67,7 @@ Save the file
 
 *Note: git branch shows the new branch only after first commit.*
 
-**4. Commit your changes**
+**4. Track your changes**
 
 Shows untracked files (the file you just made)
 
@@ -89,13 +89,15 @@ Ensures the job was done.
 git status
 ```
 
-Commit your changes and add a short description of this commit.
+**5. Commit your changes**
+
+Run the commit command and add a short description of this commit.
 
 ```bash
 git commit –m “your_name.md”
 ```
 
-** 5. Push your changes to the remote repository CODE-class**
+**6. Push your changes to the remote repository CODE-class**
 
 Push changes to a new branch on the remote repository:
 
@@ -117,3 +119,33 @@ main
 ```
 
 *Note: Star next to branch is the currently active branch.*
+
+**7. Merge your branch into main**
+
+**(Should this be moved up?)**
+
+To merge locally, you must be on the main branch
+
+Switch to the target branch*
+
+```bash
+git checkout main
+```
+
+Pull the latest changes from the remote to ensure you're up to date
+
+```bash
+git pull origin main
+```
+
+Merge the source branch into 'main'
+
+```
+git merge my-branch
+```
+
+**Push your changes to main
+
+```
+git push origin main
+```
