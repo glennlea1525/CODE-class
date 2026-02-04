@@ -5,9 +5,6 @@
 
 ## Contents
 
-- Overview
-- Prerequisites
-- 
 1. Initialize a local directory
 1. Clone the remote repository
 1. Make a new branch
@@ -17,25 +14,6 @@
 1. Push your changes to the remote repository CODE-class
 
 ---
-
-**Overview**
-Students must know how to 
-
-- initialize a repository,
-- clone remote repositories to a local machine,
-- make new branches
-- add new files,
-- commit changes,
-- push changes to the remote repository
-- merge changes to main
-- delete branches
-
-**Prerequisites**
-
-Before you begin, make sure you have the following installed on your local machine:
-
-- VSCode
-- 
 
 **1. Initialize a local directory**
 
