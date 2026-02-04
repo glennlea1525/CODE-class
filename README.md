@@ -1,20 +1,47 @@
-# GitHub Practice Repository
+[Github Practice Repository] 🚀
 
-## Initialize a local directory
+[This repository is for students of the CODE University Technical Documentation course to get up to ensure each student knows how to push files to a common repository.]
+
+---
+
+## Overview
+Students must know how to 
+
+- initialize a repository,
+- clone remote repositories to a local machine,
+- make new branches
+- add new files,
+- commit changes,
+- push changes to the remote repository
+- merge changes to main
+- delete branches
+
+[🚀 Getting Started]
+
+## Prerequisites
+
+Before you begin, make sure you have the following installed on your local machine:
+
+- VSCode
+- 
+
+## 1. Initialize a local directory
 
 Make a directory CODE-class and cd into it.
 
-Initialize a local REPO
-
-    git init
+``` bash
+git init
+```
 
 The local repo is ready now for cloning a remote Repository into it.
 
-## Clone the CODE-Class repository into the local REPO directory:
+## 2. Clone the CODE-Class repository into the local REPO directory:
 
-    git clone https://github.com/glennlea1525/CODE-class.git
+```bash
+git clone https://github.com/glennlea1525/CODE-class.git
+```
 
-## Add a Markdown file to your local Repo
+## 3. Add a Markdown file to your local Repo
 
 Make a new branch*: 
 	
