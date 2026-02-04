@@ -45,6 +45,7 @@ git clone https://github.com/glennlea1525/CODE-class.git
 ```bash
 git checkout -b <my-branch> (make new branch)
 ```
+
 **3. Add a new markdown (.md) file to your local Repo**
 
 Make a new file and name it as follows:
@@ -61,6 +62,7 @@ In this file, use Markdown to add your name. You can add anything else you want 
   "lastName": "Lea",
 }
 ```
+
 Save the file
 
 *Note: git branch shows the new branch only after first commit.*
@@ -71,7 +73,8 @@ Shows untracked files (the file you just made)
 
 ```bash
 git status
-``
+```
+
 It should show the new file you just created.
 
 Track the file you just made.
