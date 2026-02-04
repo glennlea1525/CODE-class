@@ -2,6 +2,20 @@
 
 [This repository is for students of the CODE University Technical Documentation course to get up to ensure each student knows how to push files to a common repository.]
 
+
+## Contents
+
+- Overview
+- Prerequisites
+- 
+1. Initialize a local directory
+1. Clone the remote repository
+1. Make a new branch
+1. Add a new markdown (.md) file to your local Repo
+1. Merge your branch to main
+1. Commit your changes
+1. Push your changes to the remote repository CODE-class
+
 ---
 
 **Overview**
